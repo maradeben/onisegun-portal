@@ -39,4 +39,3 @@ def query_user(query):
             return serialize_user(user)
         else:
             return None
-
