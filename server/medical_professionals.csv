@@ -1,0 +1,80 @@
+username,firstname,lastname,email,job_description,hospital,rating
+adebayo,Adebayo,Adeyemi,adebayo.adeyemi@lagosuniversityteachinghospital.ng,Cardiologist,Lagos University Teaching Hospital,4.8
+chioma,Chioma,Okafor,chioma.okafor@uchibadan.ng,General Practitioner,University College Hospital Ibadan,4.5
+emeka,Emeka,Nwosu,emeka.nwosu@nationalhospitalabuja.ng,Pediatrician,National Hospital Abuja,4.7
+zainab,Zainab,Bello,zainab.bello@lagosteachinghospital.ng,Orthopedic Surgeon,Lagos State Teaching Hospital,4.6
+ifeanyi,Ifeanyi,Eze,ifeanyi.eze@obafemiawolowouniversityhospital.ng,Neurologist,Obafemi Awolowo University Hospital,4.9
+funke,Funke,Adeola,funke.adeola@aminukanoteachinghospital.ng,Oncologist,Aminu Kano Teaching Hospital,4.8
+segun,Segun,Ogunleye,segun.ogunleye@stnicholashospital.ng,Anesthesiologist,St. Nicholas Hospital,4.4
+ngozi,Ngozi,Chukwu,ngozi.chukwu@reddingtonhospital.ng,Obstetrician,Reddington Hospital,4.7
+uche,Uche,Okeke,uche.okeke@federalmedicalcentreyaba.ng,Endocrinologist,Federal Medical Centre Yaba,4.5
+bola,Bola,Adesina,bola.adesina@lagosstategeneralhospital.ng,ENT Specialist,Lagos State General Hospital,4.6
+tosin,Tosin,Ajayi,tosin.ajayi@eurekahospitals.ng,Physiotherapist,Eureka Hospitals,4.3
+halima,Halima,Abubakar,halima.abubakar@primusnigeria.ng,Pharmacist,Primus Nigeria,4.2
+musa,Musa,Abdullahi,musa.abdullahi@abuthzaria.ng,Surgeon,Ahmadu Bello University Teaching Hospital Zaria,4.7
+yetunde,Yetunde,Salami,yetunde.salami@lagosuniversityteachinghospital.ng,Pathologist,Lagos University Teaching Hospital,4.4
+olumide,Olumide,Adigun,olumide.adigun@federalmedicalcentreyaba.ng,Nephrologist,Federal Medical Centre Yaba,4.8
+aminat,Aminat,Lawal,aminat.lawal@uchibadan.ng,Allergist,University College Hospital Ibadan,4.5
+chinedu,Chinedu,Okoro,chinedu.okoro@nationalhospitalabuja.ng,Immunologist,National Hospital Abuja,4.6
+femi,Femi,Adesanya,femi.adesanya@obafemiawolowouniversityhospital.ng,Occupational Therapist,Obafemi Awolowo University Hospital,4.3
+maryam,Maryam,Usman,maryam.usman@aminukanoteachinghospital.ng,Speech Therapist,Aminu Kano Teaching Hospital,4.4
+abiodun,Abiodun,Olaniyan,abiodun.olaniyan@stnicholashospital.ng,Clinical Psychologist,St. Nicholas Hospital,4.7
+uchechi,Uchechi,Okorie,uchechi.okorie@reddingtonhospital.ng,Genetic Counselor,Reddington Hospital,4.5
+gbenga,Gbenga,Alabi,gbenga.alabi@federalmedicalcentreyaba.ng,Plastic Surgeon,Federal Medical Centre Yaba,4.6
+fatima,Fatima,Abdullahi,fatima.abdullahi@lagosstategeneralhospital.ng,Cardiac Nurse,Lagos State General Hospital,4.8
+oluchi,Oluchi,Okonkwo,oluchi.okonkwo@eurekahospitals.ng,Respiratory Therapist,Eureka Hospitals,4.3
+abdul,Abdul,Ahmed,abdul.ahmed@primusnigeria.ng,Medical Lab Scientist,Primus Nigeria,4.2
+temitope,Temitope,Adedayo,temitope.adedayo@abuthzaria.ng,Paramedic,Ahmadu Bello University Teaching Hospital Zaria,4.5
+blessing,Blessing,Okon,blessing.okon@lagosuniversityteachinghospital.ng,Registered Nurse,Lagos University Teaching Hospital,4.7
+samuel,Samuel,Idowu,samuel.idowu@uchibadan.ng,Medical Assistant,University College Hospital Ibadan,4.3
+patience,Patience,Ekong,patience.ekong@nationalhospitalabuja.ng,Family Physician,National Hospital Abuja,4.6
+oluwaseun,Oluwaseun,Ajibade,oluwaseun.ajibade@lagosteachinghospital.ng,Chiropractor,Lagos State Teaching Hospital,4.4
+chika,Chika,Okafor,chika.okafor@obafemiawolowouniversityhospital.ng,Optometrist,Obafemi Awolowo University Hospital,4.5
+ibrahim,Ibrahim,Abubakar,ibrahim.abubakar@aminukanoteachinghospital.ng,Occupational Health Doctor,Aminu Kano Teaching Hospital,4.2
+adanna,Adanna,Okeke,adanna.okeke@stnicholashospital.ng,Clinical Pharmacist,St. Nicholas Hospital,4.3
+ayodele,Ayodele,Adediran,ayodele.adediran@reddingtonhospital.ng,Emergency Physician,Reddington Hospital,4.8
+zainab2,Zainab,Aliyu,zainab.aliyu@federalmedicalcentreyaba.ng,Midwife,Federal Medical Centre Yaba,4.6
+chukwudi,Chukwudi,Okoroafor,chukwudi.okoroafor@lagosstategeneralhospital.ng,Medical Imaging Tech,Lagos State General Hospital,4.4
+ifeoma,Ifeoma,Okonkwo,ifeoma.okonkwo@eurekahospitals.ng,Clinical Researcher,Eureka Hospitals,4.7
+abdul2,Abdul,Salam,abdul.salam@primusnigeria.ng,Infectious Disease Specialist,Primus Nigeria,4.5
+olayemi,Olayemi,Adesanya,olayemi.adesanya@abuthzaria.ng,Cardiac Surgeon,Ahmadu Bello University Teaching Hospital Zaria,4.9
+chidinma,Chidinma,Okeke,chidinma.okeke@lagosuniversityteachinghospital.ng,Physical Therapist,Lagos University Teaching Hospital,4.3
+ibukun,Ibukun,Adesina,ibukun.adesina@uchibadan.ng,Medical Social Worker,University College Hospital Ibadan,4.2
+uche2,Uche,Okafor,uche.okafor@nationalhospitalabuja.ng,Clinical Biochemist,National Hospital Abuja,4.4
+oluwatobi,Oluwatobi,Adedayo,oluwatobi.adedayo@lagosteachinghospital.ng,Medical Geneticist,Lagos State Teaching Hospital,4.6
+halimat,Halimat,Abdullahi,halimat.abdullahi@obafemiawolowouniversityhospital.ng,Neonatologist,Obafemi Awolowo University Hospital,4.8
+chijioke,Chijioke,Okoro,chijioke.okoro@aminukanoteachinghospital.ng,Medical Oncologist,Aminu Kano Teaching Hospital,4.7
+mary,Mary,Okon,mary.okon@stnicholashospital.ng,Clinical Microbiologist,St. Nicholas Hospital,4.5
+ibrahim2,Ibrahim,Idris,ibrahim.idris@reddingtonhospital.ng,Medical Technologist,Reddington Hospital,4.3
+oluwakemi,Oluwakemi,Adediran,oluwakemi.adediran@federalmedicalcentreyaba.ng,Cardiac Electrophysiologist,Federal Medical Centre Yaba,4.8
+uche3,Uche,Okoro,uche.okoro@lagosstategeneralhospital.ng,Clinical Nurse Specialist,Lagos State General Hospital,4.6
+fatimah,Fatimah,Abdullahi,fatimah.abdullahi@eurekahospitals.ng,Medical Records Tech,Eureka Hospitals,4.2
+chinedu2,Chinedu,Okafor,chinedu.okafor@primusnigeria.ng,Medical Interpreter,Primus Nigeria,4.4
+favour,Favour,Okon,favour.okon@abuthzaria.ng,Medical Secretary,Ahmadu Bello University Teaching Hospital Zaria,4.3
+oluwatosin,Oluwatosin,Adedayo,oluwatosin.adedayo@lagosuniversityteachinghospital.ng,Medical Billing Specialist,Lagos University Teaching Hospital,4.2
+blessing2,Blessing,Ekong,blessing.ekong@uchibadan.ng,Medical Receptionist,University College Hospital Ibadan,4.3
+samson,Samson,Idowu,samson.idowu@nationalhospitalabuja.ng,Medical Scribe,National Hospital Abuja,4.4
+patience2,Patience,Ekong,patience.ekong@lagosteachinghospital.ng,Medical Transcriptionist,Lagos State Teaching Hospital,4.2
+oluwapelumi,Oluwapelumi,Ajibade,oluwapelumi.ajibade@obafemiawolowouniversityhospital.ng,Medical Librarian,Obafemi Awolowo University Hospital,4.3
+chika2,Chika,Okafor,chika.okafor@aminukanoteachinghospital.ng,Medical Equipment Tech,Aminu Kano Teaching Hospital,4.4
+ibrahim3,Ibrahim,Abdullahi,ibrahim.abdullahi@stnicholashospital.ng,Medical Claims Analyst,St. Nicholas Hospital,4.2
+adewale,Adewale,Adediran,adewale.adediran@reddingtonhospital.ng,Medical Coder,Reddington Hospital,4.3
+zainab3,Zainab,Bello,zainab.bello@federalmedicalcentreyaba.ng,Medical Illustrator,Federal Medical Centre Yaba,4.5
+chukwuemeka,Chukwuemeka,Okoroafor,chukwuemeka.okoroafor@lagosstategeneralhospital.ng,Medical Photographer,Lagos State General Hospital,4.4
+ifeanyi2,Ifeanyi,Eze,ifeanyi.eze@eurekahospitals.ng,Medical Writer,Eureka Hospitals,4.6
+funmilayo,Funmilayo,Adeola,funmilayo.adeola@primusnigeria.ng,Medical Editor,Primus Nigeria,4.3
+segun2,Segun,Ogunleye,segun.ogunleye@abuthzaria.ng,Medical Sales Rep,Ahmadu Bello University Teaching Hospital Zaria,4.2
+ngozi2,Ngozi,Chukwu,ngozi.chukwu@lagosuniversityteachinghospital.ng,Medical Device Rep,Lagos University Teaching Hospital,4.3
+uche4,Uche,Okeke,uche.okeke@uchibadan.ng,Medical Lab Tech,University College Hospital Ibadan,4.4
+bola2,Bola,Adesina,bola.adesina@nationalhospitalabuja.ng,Medical Office Manager,National Hospital Abuja,4.5
+tosin2,Tosin,Ajayi,tosin.ajayi@lagosteachinghospital.ng,Medical Scheduler,Lagos State Teaching Hospital,4.2
+halima2,Halima,Abubakar,halima.abubakar@obafemiawolowouniversityhospital.ng,Medical Supply Tech,Obafemi Awolowo University Hospital,4.3
+musa2,Musa,Abdullahi,musa.abdullahi@aminukanoteachinghospital.ng,Medical Transporter,Aminu Kano Teaching Hospital,4.4
+yetunde2,Yetunde,Salami,yetunde.salami@stnicholashospital.ng,Medical Volunteer,St. Nicholas Hospital,4.5
+olumide2,Olumide,Adigun,olumide.adigun@reddingtonhospital.ng,Medical Waste Handler,Reddington Hospital,4.2
+aminat2,Aminat,Lawal,aminat.lawal@federalmedicalcentreyaba.ng,Medical Receptionist,Federal Medical Centre Yaba,4.3
+chinedu3,Chinedu,Okoro,chinedu.okoro@stnicholashospital.ng,Medical Records Clerk,St. Nicholas Hospital,4.4
+femi2,Femi,Adesanya,femi.adesanya@cityhealthclinic.ng,Medical Assistant,City Health Clinic,4.3
+maryam2,Maryam,Usman,maryam.usman@uchibadan.ng,Medical Secretary,University College Hospital Ibadan,4.2
+gbenga2,Gbenga,Alabi,gbenga.alabi@nationalhospitalabuja.ng,Medical Interpreter,National Hospital Abuja,4.3
+fatima2,Fatima,Abdullahi,fatima.abdullahi@lagosteachinghospital.ng,Medical Interpreter,Lagos State Teaching Hospital,4.3
