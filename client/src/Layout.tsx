@@ -2,15 +2,24 @@ import React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import { Link as RouterLink } from 'react-router-dom';
+import { useNavigate, Link as RouterLink } from 'react-router-dom';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 
 interface LayoutProps {
   children: React.ReactNode;
 }
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
+  const navigate = useNavigate();
+  const token = localStorage.getItem('token');
+
+  const handleLogout = () => {
+    localStorage.removeItem('token'); // Clear token from local storage
+    navigate('/login'); // Redirect to login page
+  };
+
   return (
     <Box sx={{ minHeight: '100vh', bgcolor: '#f5f5f5' }}>
       <AppBar position="static">
@@ -20,8 +29,31 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               Onisegun Portal
             </RouterLink>
           </Typography>
+
+          <Box>
+            {token ? (
+              <>
+                <Button color="inherit" component={RouterLink} to="/profile">
+                  Profile
+                </Button>
+                <Button color="inherit" onClick={handleLogout}>
+                  Logout
+                </Button>
+              </>
+            ) : (
+              <>
+                <Button color="inherit" component={RouterLink} to="/login">
+                  Login
+                </Button>
+                <Button color="inherit" component={RouterLink} to="/signup">
+                  Sign Up
+                </Button>
+              </>
+            )}
+          </Box>
         </Toolbar>
       </AppBar>
+      
       <Container maxWidth="md" sx={{ mt: 4, mb: 4 }}>
         {children}
       </Container>

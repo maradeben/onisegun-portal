@@ -22,8 +22,14 @@ const Login = () => {
         e.preventDefault();
         try {
             const response = await axios.post("http://localhost:5000/login", form);
-            console.log("Login successful:", response.data);
-            navigate("/"); // Redirect to home on success
+
+            const { token } = response.data;
+
+            if (token) {
+                localStorage.setItem('token', token); // Store token in local storage
+                console.log("Login successful, token stored:", response.data, token);
+                navigate("/"); // Redirect to home on success
+            }
         } catch (error) {
             console.error("Login error:", error);
             alert("Login failed. Please check your credentials and try again.");

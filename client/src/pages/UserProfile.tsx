@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import { Container, Typography, Card, CardContent, CircularProgress } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 type User = {
     id: number;
@@ -14,17 +15,30 @@ type User = {
 }
 
 const UserProfile = () => {
+    const navigate = useNavigate();
     const { id } = useParams(); // get user id from the URL
     const [user, setUser] = useState<User | null>(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const fetchUserProfile = async () => {
+            const token = localStorage.getItem('token'); // Get token from local storage
+            if (!token) {
+                console.warn("No token found in localStorage! Redirecting to login.");
+                navigate("/login"); // Redirect to login if no token
+                setLoading(false);
+                return;
+            }
+
             try {
-                const response = await axios.get(`http://localhost:5000/user/${id}`);
+                const response = await axios.get(`http://localhost:5000/user/${id}`, {
+                    headers: {
+                        Authorization: `Bearer ${token}` // Include token in request headers
+                    }
+                });
                 setUser(response.data);
             } catch (error) {
-                console.error("Error fetching user profile:", error);
+                console.error("Error fetching user profile", error);
             } finally {
                 setLoading(false);
             }
