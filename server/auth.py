@@ -20,7 +20,7 @@ def signup_user(data):
         password=hashed_password,
         job_description=data.get('job_description'),
         hospital=data.get('hospital'),
-        rating=data.get('rating')
+        rating=data.get('rating', 5)  # Default rating to 5 if not provided
     )
     session.add(user)
     session.commit()
